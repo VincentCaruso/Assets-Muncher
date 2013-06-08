@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/3.7">
+  <id>AssetsMuncher</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>AssetsMuncher</filename>
+  <name>
+    <text xml:lang="en">Assets Muncher</text>
+  </name>
+  <description>
+    <text xml:lang="en">Make embedding assets easier for Starling</text>
+  </description>
+  <copyright>TAW</copyright>
+  <initialWindow>
+    <title>Assets Muncher</title>
+    <content>AssetsMuncher.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <minimizable>true</minimizable>
+    <maximizable>true</maximizable>
+    <resizable>false</resizable>
+  </initialWindow>
+  <!-- 
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+  <supportedProfiles>desktop</supportedProfiles>
+</application>
