@@ -7,8 +7,8 @@ package
 	import flash.text.TextFormatAlign;
 	
 	/**
-	 * ...
-	 * @author Tiffus mailto : el.tiffus@gmail.com ^^
+	 * Make a basic form (title and input textfield)
+	 * @author Tiffus mailto : me@kurious.fr ^^
 	 */
 	public class MiniForm extends Sprite
 	{
@@ -28,6 +28,7 @@ package
 			const FORM_WIDTH:int = 195;
 			const FORM_HEIGHT:int = 20;
 			
+			//Title
 			var tf:TextField = new TextField();
 			tf.width = FORM_WIDTH;
 			tf.height = FORM_HEIGHT;
@@ -38,6 +39,7 @@ package
 			tf.background = true;
 			addChild(tf);
 			
+			//Input field
 			_response = new TextField();
 			_response.width = FORM_WIDTH;
 			_response.height = FORM_HEIGHT;

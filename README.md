@@ -17,6 +17,7 @@ Assets-Muncher
 Basic Assets class creator for Starling
 
 Including assets in a class as been a pain since I've started using Starling.
+So I created this tool for helping in this task.
 
 How it works
 ==============

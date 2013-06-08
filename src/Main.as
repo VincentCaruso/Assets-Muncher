@@ -12,6 +12,10 @@ package
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
 	
+	/**
+	 * Basic Assets class creator for Starling
+	 * @author Tiffus mailto : me@kurious.fr ^^
+	 */
 	public class Main extends Sprite
 	{
 		private var _dropTarget:Sprite = new Sprite();
